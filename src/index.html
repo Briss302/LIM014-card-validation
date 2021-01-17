@@ -1,14 +1,83 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <meta charset="utf-8" />
+    <title>Shop</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <!--Aquí empieza el header-->
+    <header>
+      <nav>
+        <div class="brand">
+          <h1>Shop</h1>
+        </div>
+        <div class="option">
+          <a href="#">Home</a>
+        </div>
+      </nav>
+    </header>
+    <!--Aquí empieza main-->
+    <main>
+      <!--Aquí empieza pay screen-->
+      <section class="pay-screen">
+        <div class="container-pay-screen">
+          <div class="product">
+            <div>
+              <img src="imagenes/one.gif" width="200" />
+            </div>
+            <h3>Producto 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+              ullam sed amet unde! Blanditiis repudiandae quisquam dolor
+              architecto explicabo! Architecto libero assumenda tenetur nesciunt
+              voluptatum quibusdam odio ratione hic sint!
+            </p>
+          </div>
+          <div class="card">
+            <form action="" method="POST" id="Form" class="formulario-tarjeta">
+              <div class="data">
+                <label for="inputNumber">Número Tarjeta de crédito</label>
+                <input
+                  type="text"
+                  id="inputNumber"
+                  maxlength="16"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="data">
+                <label for="inputName">Nombre</label>
+                <input type="text" id="inputName" autocomplete="off" />
+              </div>
+              <label class="title">Expira</label>
+              <div class="data-flex">
+                <div>
+                  <input type="number" placeholder="mes" />
+                </div>
+                <div>
+                  <input type="number" placeholder="año" />
+                </div>
+                <div class="cvv">
+                  <p>cvv</p>
+                </div>
+              </div>
+              <button onclick="getData();" class="btn-pay">
+                Confirmar Pago
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Aquí empieza footer-->
+    <footer>
+      <div>
+        <p>Términos y condiciones</p>
+      </div>
+      <div>
+        <a href="#">contacto@brand.com</a>
+      </div>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

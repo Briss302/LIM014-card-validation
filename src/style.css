@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #020121;
+  background-color: #8767ff40;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/*HEADER*/
+header {
+  height: 50px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+header nav div h1 {
+  font-family: "Kaushan Script", cursive;
+  margin: 0;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+header nav .option {
+  background-color: #763cff;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  text-align: center;
+}
+header nav .option a {
+  position: relative;
+  top: 15px;
+}
+/*MAIN_PAY SCREEN*/
+main .pay-screen .container-pay-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+main .pay-screen .container-pay-screen .product {
+  width: 300px;
+  padding: 10px;
+  margin: 0 20px;
+  background-image: url("imagenes/fondo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  border-radius: 20px;
+}
+.product p {
+  text-align: left;
+}
+main .pay-screen .container-pay-screen .card {
+  width: 100%;
+  max-width: 400px;
+  height: 357px;
+  background-image: url("imagenes/fondo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  border-radius: 20px;
+  padding: 50px;
+}
+main .pay-screen .container-pay-screen .card form {
+  padding: 30px 0;
+}
+.card form label {
+  display: block;
+  color: #020121;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.card form input,
+button {
+  border: 1.95px solid #9072ce70;
+  box-sizing: border-box;
+  font-size: 18px;
+  height: 38px;
+  width: 100%;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+.card form input {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.card form input:hover,
+button:hover {
+  border: 2px solid #9072cec9;
+}
+.card form input:focus,
+button:focus {
+  outline: rgb(2, 1, 33);
+  box-shadow: 1px 7px 10px -5px rgba(144, 114, 206, 0.44);
+}
+.title {
+  text-align: left;
+}
+.card form .data-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.card form .data-flex div {
+  margin-right: 5px;
+}
+.card form .data-flex .cvv {
+  width: 250px;
+  height: 37px;
+  background-image: url("imagenes/cvv.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 5px;
+  margin-right: 0;
+}
+.card form .data-flex .cvv p {
+  margin: 0;
+  padding: 10px;
+  text-align: right;
+  font-style: oblique;
+  font-size: 14px;
+}
+
+/*FOOTER*/
+footer {
+  padding: 0 20px;
+  background-color: rgba(79, 0, 255, 0.68);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
