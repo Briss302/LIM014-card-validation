@@ -41,18 +41,29 @@ etc.
 
 ## 3. Online Fashion Store
 
-Es un ecommerce de lo más fashion de prendas para dama, al lacance de tan solo un click de destancia que brinda calidad, buen precio y pago seguro.
+Es un e-commerce de lo más fashion de prendas para dama, al alcance de tan solo un click de distancia que brinda calidad, buen precio y pago seguro.
 
 ![Main Screen](https://i.ibb.co/R9xmTBB/shop.png)
-![Pay Screen](https://i.ibb.co/CMWcp5M/pay.png)
+
+![Pay Screen](https://i.ibb.co/kQwh3kW/pay.png)
 
 ### Investigación UX
 
-1. Este proyecto va dirigido a mujeres jovénes de 18 - 40 años(target).
-2. Sin duda la mejor ventaja es que el producto comprado llegará al domicilio establecido por el usuario, sin necesidad de salir. Además la disponibilidad que tiene la plataforma sin necesidad de un horario de atención
+1. Este proyecto va dirigido a mujeres jóvenes de 18 - 40 años(target).
+
+2. Sin duda la mejor ventaja es que el producto comprado llegará al domicilio establecido por el usuario, Además la disponibilidad que tiene la plataforma sin necesidad de un horario de atención y de salir.
+
 3. En la siguiente imagen, podrás ver el primer prototipo realizado en papel
+
    ![Prototipo](https://i.ibb.co/Kq56P88/pageOne.jpg)
+
    ![Prototipo](https://i.ibb.co/YTZpTRF/pageTwo.jpg)
+
+4. En el primer prototipo se observa que en la pantalla principal contiene cuatro secciones, lo cual la ultima sección es de menciones y se tenía que retirar para el maquetado, ya que se veía redundante.En la segunda pantalla se realizó cambios en la sección de ingreso de datos para confirmar la compra, ya que algunos de los datos solicitados son redundantes como el input Country, First Name y Last name, lo cual no fueron considerados para la maquetación.
+
+5.En la siguiente imagen, podrás ver el prototipo realizado en Figma
+
+![Figma](https://i.ibb.co/k3HdjSF/figma.png)
 
 ## 4. Objetivos de aprendizaje
 

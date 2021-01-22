@@ -123,7 +123,7 @@ main .pay-screen .container-pay-screen .product {
 main .pay-screen .container-pay-screen .card {
   width: 100%;
   max-width: 400px;
-  height: 357px;
+  height: 400px;
   background-image: url("imagenes/fondo.svg");
   background-repeat: no-repeat;
   background-position: center;
