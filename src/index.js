@@ -57,7 +57,7 @@ close.addEventListener("click", function () {
   }, 1300);
 });
 /*Ocultar y aparecer contenedores*/
-let screenTwo = (document.querySelector(".pay-screen").style.display = "none");
+document.querySelector(".pay-screen").style.display = "none";
 const botonCompraOne = document.getElementById("buy-one");
 const botonCompraDos = document.getElementById("buy-two");
 const botonCompraTres = document.getElementById("buy-three");
