@@ -77,7 +77,7 @@ botonCompraDos.addEventListener("click", function () {
   document.querySelector(".pay-screen").style.display = "block";
   document.querySelector(".shopping-screen").style.display = "none";
   let image = document.getElementById("img");
-  image.src = "imagenes/two.gif";
+  image.src = "Imagenes/two.gif";
   let productTitle = document.getElementById("product-title");
   productTitle.innerHTML = "Producto 2";
 });
@@ -86,7 +86,7 @@ botonCompraTres.addEventListener("click", function () {
   document.querySelector(".shopping-screen").style.display = "none";
   /*Cambiar de imagen con JS*/
   let image = document.getElementById("img");
-  image.src = "imagenes/three.gif";
+  image.src = "Imagenes/three.gif";
   /*Modificar el atributo de la etiqueta <img>*/
   image.setAttribute("width", "329");
   let productTitle = document.getElementById("product-title");
