@@ -87,7 +87,7 @@ botonCompraTres.addEventListener("click", function () {
   /*Cambiar de imagen con JS*/
   let image = document.getElementById("img");
   image.src = "imagenes/three.gif";
-  /*Cambiar de atributo de la etiqueta <img>*/
+  /*Modificar el atributo de la etiqueta <img>*/
   image.setAttribute("width", "329");
   let productTitle = document.getElementById("product-title");
   productTitle.innerHTML = "Producto 3";
