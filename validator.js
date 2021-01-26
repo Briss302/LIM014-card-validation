@@ -42,7 +42,7 @@ const validator = {
     let masked = creditCardNumber
       .split("")
       .slice(0, -4)
-      .map(() => "#")
+      .map(() => "#") /*es un metodo del array*/
       .join("");
     /*Aqui se va concatenar el string convertido en # y el numero ingreado pero solo con sus ultimos cuatro digitos*/
     return masked + creditCardNumber.slice(-4);

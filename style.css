@@ -111,7 +111,7 @@ main .pay-screen .container-pay-screen .product {
   width: 300px;
   padding: 10px;
   margin: 0 20px;
-  background-image: url("imagenes/fondo.svg");
+  background-image: url("Imagenes/fondo.svg");
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
@@ -124,7 +124,7 @@ main .pay-screen .container-pay-screen .card {
   width: 100%;
   max-width: 400px;
   height: 400px;
-  background-image: url("imagenes/fondo.svg");
+  background-image: url("Imagenes/fondo.svg");
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
@@ -180,7 +180,7 @@ button:focus {
 .card .form .data-flex .cvv {
   width: 250px;
   height: 37px;
-  background-image: url("imagenes/cvv.png");
+  background-image: url("Imagenes/cvv.png");
   background-repeat: no-repeat;
   background-position: left;
   border-radius: 5px;
@@ -211,7 +211,7 @@ main .modal-container {
 main .modal-container .modal {
   width: 20%;
   padding: 0 20px;
-  background-image: url("imagenes/fondo.svg");
+  background-image: url("Imagenes/fondo.svg");
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden; /*Recorta y no se desborde la imgen del contenedir*/
@@ -264,14 +264,14 @@ main .modal-container .modal .close {
   padding: 5px 0;
 }
 .visa {
-  background-image: url("imagenes/visa.svg");
+  background-image: url("Imagenes/visa.svg");
   background-size: 60px 60px;
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 340px;
 }
 .mastercard {
-  background-image: url("imagenes/mastercad.svg");
+  background-image: url("Imagenes/mastercad.svg");
   background-size: 60px 60px;
   background-repeat: no-repeat;
   background-position-y: center;
