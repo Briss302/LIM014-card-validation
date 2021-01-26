@@ -61,9 +61,9 @@ Es un e-commerce de lo más fashion de prendas para dama, al alcance de tan solo
 
 4. En el primer prototipo se observa que en la pantalla principal contiene cuatro secciones, lo cual la ultima sección es de menciones y se tenía que retirar para el maquetado, ya que se veía redundante.En la segunda pantalla se realizó cambios en la sección de ingreso de datos para confirmar la compra, ya que algunos de los datos solicitados son redundantes como el input Country, First Name y Last name, lo cual no fueron considerados para la maquetación.
 
-5.En la siguiente imagen, podrás ver el prototipo realizado en Figma
+5. En la siguiente imagen, podrás ver el prototipo realizado en Figma
 
-![Figma](https://i.ibb.co/k3HdjSF/figma.png)
+   ![Figma](https://i.ibb.co/k3HdjSF/figma.png)
 
 ## 4. Objetivos de aprendizaje
 
